@@ -1,0 +1,16 @@
+@import "bootstrap.css";
+
+html, body {
+  min-width: 380px;
+  text-align: center;
+}
+
+#message {
+  font-weight: 300;
+  font-size: 130%;
+  line-height: 180%;
+}
+
+#entity, #currentEntity {
+  display: block;
+}

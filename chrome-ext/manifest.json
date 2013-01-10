@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1",
+  "manifest_version": 2,
+  "icons": { "128": "arrows.png", "16": "arrows.png", "48": "arrows.png" },
+  "permissions": [
+    "storage"
+  ],
+
+  "intents": {
+    "https://tent.io/jonasschneider/sign-in-with-tent/register": [
+      {
+        "type": ["v1"],
+        "href": "/register.html",
+        "title" : "Set as your Tent server",
+        "disposition" : "inline"
+      }
+    ],
+    "https://tent.io/jonasschneider/sign-in-with-tent/authenticate": [
+      {
+        "type": ["v1"],
+        "href": "/authenticate.html",
+        "title" : "Sign in with Tent",
+        "disposition" : "inline"
+      }
+    ]
+  }
+}

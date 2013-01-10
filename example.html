@@ -1,0 +1,28 @@
+<!doctype html>
+
+<button id="reg">register!</button>
+
+<button id="auth">authenticate!</button>
+<script>
+// Prefix shim
+window.Intent = window.Intent || window.WebKitIntent;
+window.navigator.startActivity = window.navigator.startActivity || window.navigator.webkitStartActivity;
+window.intent = window.intent || window.webkitIntent;
+
+  var shareBtn = document.getElementById("auth");
+  shareBtn.addEventListener("click", function() {
+    var intent = new Intent("https://tent.io/jonasschneider/sign-in-with-tent/authenticate", "v1");
+    window.navigator.startActivity(intent, function() {
+      console.log("auth success!", arguments)
+    });
+  }, false);
+
+var regBtn = document.getElementById("reg");
+  regBtn.addEventListener("click", function() {
+    var intent = new Intent("https://tent.io/jonasschneider/sign-in-with-tent/register", "v1", "https://sokarates.tent.is/YOaaaLO");
+    window.navigator.startActivity(intent, function() {
+      console.log("reg success!", arguments)
+    });
+  }, false);
+
+</script>
