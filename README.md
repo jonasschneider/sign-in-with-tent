@@ -3,6 +3,8 @@ Sign in with Tent
 
 **Sign in with Tent** makes it a pleasure to sign in to Tent apps.
 
+![How the distinctive input field looks like](http://puu.sh/1MazA)
+
 It stores the user's Tent entity URI and provides a standardized way for Tent apps to query this information from the users's browser, and for Tent providers to store the user's entity URI within their browser.
 
 Installation
