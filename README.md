@@ -37,7 +37,7 @@ Tent guys, please notify me if you are upset by me using the `tent.io` domain.
 
 Future
 ------
-Note that this extension currently only spares the user from entering their Tent entity URI. No other actions, such as automatic OAuth authentication with the user's tent server, is currently implemented.
+Note that this extension currently only spares the user from entering their Tent entity URI. No other actions, such as automatic OAuth authentication with the user's tent server, are currently performed.
 
 In the future, it might be possible to integrate the OAuth flow into the WebIntent activity. This would make the first time signing in much more seamless.
 
