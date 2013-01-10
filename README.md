@@ -28,12 +28,10 @@ Technicalities
 --------------
 These WebIntent `action`s are used:
 
-    https://tent.io/jonasschneider/sign-in-with-tent/register
-    https://tent.io/jonasschneider/sign-in-with-tent/authenticate
+    http://jonasschneider.com/sign-in-with-tent/register
+    http://jonasschneider.com/sign-in-with-tent/authenticate
 
 They each use a `type` of "v1" (not sure whether this is good. spec recommends MIME types, but they don't make much sense here).
-
-Tent guys, please notify me if you are upset by me using the `tent.io` domain.
 
 Future
 ------

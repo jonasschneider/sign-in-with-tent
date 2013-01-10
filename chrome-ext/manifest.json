@@ -8,7 +8,7 @@
   ],
 
   "intents": {
-    "https://tent.io/jonasschneider/sign-in-with-tent/register": [
+    "http://jonasschneider.com/sign-in-with-tent/register": [
       {
         "type": ["v1"],
         "href": "/register.html",
@@ -16,7 +16,7 @@
         "disposition" : "inline"
       }
     ],
-    "https://tent.io/jonasschneider/sign-in-with-tent/authenticate": [
+    "http://jonasschneider.com/sign-in-with-tent/authenticate": [
       {
         "type": ["v1"],
         "href": "/authenticate.html",
