@@ -11,16 +11,18 @@ window.intent = window.intent || window.webkitIntent;
 
   var shareBtn = document.getElementById("auth");
   shareBtn.addEventListener("click", function() {
-    var intent = new Intent("https://tent.io/jonasschneider/sign-in-with-tent/authenticate", "v1");
+    var intent = new Intent("https://tent.jonasschneider.com/sign-in-with-tent/authenticate", "v1");
     window.navigator.startActivity(intent, function() {
+      alert("success! see console")
       console.log("auth success!", arguments)
     });
   }, false);
 
 var regBtn = document.getElementById("reg");
   regBtn.addEventListener("click", function() {
-    var intent = new Intent("https://tent.io/jonasschneider/sign-in-with-tent/register", "v1", "https://sokarates.tent.is/YOaaaLO");
+    var intent = new Intent("https://tent.jonasschneider.com/sign-in-with-tent/register", "v1", "https://sokarates.tent.is/YOaaaLO");
     window.navigator.startActivity(intent, function() {
+      alert("success! see console")
       console.log("reg success!", arguments)
     });
   }, false);
