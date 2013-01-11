@@ -10,7 +10,7 @@ It stores the user's Tent entity URI and provides a standardized way for Tent ap
 Installation
 ------------
 
-**Tent users: [get the extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/sign-in-with-tent/dglnpdelpkpemimngajbfhnefdnfendn)**
+**Tent users: [Get the extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/sign-in-with-tent/dglnpdelpkpemimngajbfhnefdnfendn)**
 
 Tent app developers have it easy as well:
 
